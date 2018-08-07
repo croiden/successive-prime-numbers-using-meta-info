@@ -1,7 +1,7 @@
 # successive-prime-numbers-using-meta-info
 Python: The code lays out successive prime numbers one after the other and spits out the n-th to (n+5)th position substring where n is the input to the program.
 
--Here the code optimizationsis done by using the meta information. This will help in getting faster results, if the input number is very large
+-Here the code optimization is done by using the meta information. This will help in getting faster results, if the input number is very large
 
         #The below meta tabel is used to skip generation of certain prime numbers
         #Here num is the user input number
