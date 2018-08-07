@@ -4,15 +4,16 @@ Python: The code lays out successive prime numbers one after the other and spits
 -Here the code optimizationsis done by using the meta information. This will help in getting faster results, if the input number is very large
 
         #The below meta tabel is used to skip generation of certain prime numbers
+        #Here num is the user input number
         #Here i is the start point
         
         if num <=4:
             minion = "2"
             i= 3 
-        elif num <=46:
+        elif num <=46: #46 is number of characters genrated for 1 to 100 prime numbers
             i= 11
             num-=4
-        elif num <=256:
+        elif num <=256: #256 is number of characters genrated for 1 to 500 prime numbers
             i= 101
             num-=46
         elif num <=475:
